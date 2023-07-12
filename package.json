@@ -1,0 +1,21 @@
+{
+  "name":"cypress-api",
+  "version":"1.0.0",
+  "description":"Sample project to demonstrate some code with cypress-api plugin and how to automate API tests with Cypress",
+  "main":"cypress.config.js",
+  "scripts":{
+    "cy:open": "cypress open",
+    "test" : "cypress run"
+  },
+  "keywords":[
+    "cypress.io",
+    "cypress-plugin-api",
+    "API Testing"
+  ],
+  "devDependencies": {
+    "cypress": "^12.17.1"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.1"
+  }
+}
